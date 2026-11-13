@@ -1,0 +1,16 @@
+[project]
+name = "interviewer-server"
+version = "0.1.0"
+description = "Japanese interviewer voice agent (Pipecat cascade: STT → OpenAI → TTS over SmallWebRTC)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pipecat-ai[cartesia,deepgram,elevenlabs,openai,runner,silero,soniox,webrtc]>=1.16.0",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["I", "F", "UP"]
+ignore = ["UP038"]

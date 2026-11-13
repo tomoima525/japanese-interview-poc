@@ -1,0 +1,13 @@
+# secrets
+.env
+.env.local
+# python
+server/.venv/
+__pycache__/
+# node
+client/node_modules/
+client/.next/
+.DS_Store
+# generated test artifacts
+server/test_audio/
+client/e2e-output/

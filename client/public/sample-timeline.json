@@ -1,0 +1,747 @@
+{
+ "version": 1,
+ "exportedAt": "2026-11-12T00:00:00Z",
+ "events": [
+  {
+   "t": 0,
+   "type": "connected"
+  },
+  {
+   "t": 900,
+   "type": "botReady"
+  },
+  {
+   "t": 950,
+   "type": "config",
+   "data": {
+    "type": "session-config",
+    "role": "ソフトウェアエンジニア",
+    "services": [
+     {
+      "kind": "stt",
+      "provider": "soniox",
+      "model": "stt-rt-v6"
+     },
+     {
+      "kind": "llm",
+      "provider": "openai",
+      "model": "gpt-4.1"
+     },
+     {
+      "kind": "tts",
+      "provider": "cartesia",
+      "model": "sonic-3.6"
+     }
+    ]
+   }
+  },
+  {
+   "t": 1000,
+   "type": "botLlmStarted"
+  },
+  {
+   "t": 1420,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "OpenAILLMService#0",
+      "value": 0.42
+     }
+    ]
+   }
+  },
+  {
+   "t": 1450,
+   "type": "botTtsStarted"
+  },
+  {
+   "t": 1460,
+   "type": "botOutput",
+   "data": {
+    "text": "こんにちは。",
+    "segment_id": 1,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "こんにちは。"
+    }
+   }
+  },
+  {
+   "t": 1490,
+   "type": "botOutput",
+   "data": {
+    "text": "本日面接を担当する佐藤です。",
+    "segment_id": 2,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "本日面接を担当する佐藤です。"
+    }
+   }
+  },
+  {
+   "t": 1520,
+   "type": "botOutput",
+   "data": {
+    "text": "約十分間、四つほど質問させていただきます。",
+    "segment_id": 3,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "約十分間、四つほど質問させていただきます。"
+    }
+   }
+  },
+  {
+   "t": 1550,
+   "type": "botOutput",
+   "data": {
+    "text": "まず簡単に自己紹介をお願いできますか？",
+    "segment_id": 4,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "まず簡単に自己紹介をお願いできますか？"
+    }
+   }
+  },
+  {
+   "t": 1620,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "CartesiaTTSService#0",
+      "value": 0.17
+     }
+    ]
+   }
+  },
+  {
+   "t": 1700,
+   "type": "botStartedSpeaking"
+  },
+  {
+   "t": 2100,
+   "type": "botLlmStopped"
+  },
+  {
+   "t": 3500,
+   "type": "botOutput",
+   "data": {
+    "text": "こんにちは。",
+    "segment_id": 1,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "こんにちは。",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 5300,
+   "type": "botOutput",
+   "data": {
+    "text": "本日面接を担当する佐藤です。",
+    "segment_id": 2,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "本日面接を担当する佐藤です。",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 7100,
+   "type": "botOutput",
+   "data": {
+    "text": "約十分間、四つほど質問させていただきます。",
+    "segment_id": 3,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "約十分間、四つほど質問させていただきます。",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 8900,
+   "type": "botOutput",
+   "data": {
+    "text": "まず簡単に自己紹介をお願いできますか？",
+    "segment_id": 4,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "まず簡単に自己紹介をお願いできますか？",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 8900,
+   "type": "botStoppedSpeaking"
+  },
+  {
+   "t": 8900,
+   "type": "botTtsStopped"
+  },
+  {
+   "t": 9100,
+   "type": "vadStart"
+  },
+  {
+   "t": 9250,
+   "type": "userTurnStart"
+  },
+  {
+   "t": 9800,
+   "type": "userTranscript",
+   "data": {
+    "text": "はい、",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 10500,
+   "type": "userTranscript",
+   "data": {
+    "text": "はい、山田と申します。",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 11200,
+   "type": "userTranscript",
+   "data": {
+    "text": "はい、山田と申します。現在はWeb系の会社で",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 11900,
+   "type": "userTranscript",
+   "data": {
+    "text": "はい、山田と申します。現在はWeb系の会社でバックエンドエンジニアとして",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 12600,
+   "type": "userTranscript",
+   "data": {
+    "text": "はい、山田と申します。現在はWeb系の会社でバックエンドエンジニアとして五年ほど働いています。",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 12900,
+   "type": "vadStop"
+  },
+  {
+   "t": 13280,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "SonioxSTTService#0",
+      "value": 0.21
+     }
+    ]
+   }
+  },
+  {
+   "t": 13620,
+   "type": "userTranscript",
+   "data": {
+    "text": "はい、山田と申します。現在はWeb系の会社でバックエンドエンジニアとして五年ほど働いています。",
+    "final": true,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 14100,
+   "type": "userTurnStop"
+  },
+  {
+   "t": 14300,
+   "type": "botLlmStarted"
+  },
+  {
+   "t": 14720,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "OpenAILLMService#0",
+      "value": 0.42
+     }
+    ]
+   }
+  },
+  {
+   "t": 14750,
+   "type": "botTtsStarted"
+  },
+  {
+   "t": 14760,
+   "type": "botOutput",
+   "data": {
+    "text": "ありがとうございます。",
+    "segment_id": 5,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "ありがとうございます。"
+    }
+   }
+  },
+  {
+   "t": 14790,
+   "type": "botOutput",
+   "data": {
+    "text": "最近取り組んだ中で、技術的に難しかった課題について教えていただけますか？",
+    "segment_id": 6,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "最近取り組んだ中で、技術的に難しかった課題について教えていただけますか？"
+    }
+   }
+  },
+  {
+   "t": 14920,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "CartesiaTTSService#0",
+      "value": 0.17
+     }
+    ]
+   }
+  },
+  {
+   "t": 15000,
+   "type": "botStartedSpeaking"
+  },
+  {
+   "t": 15400,
+   "type": "botLlmStopped"
+  },
+  {
+   "t": 17800,
+   "type": "botOutput",
+   "data": {
+    "text": "ありがとうございます。",
+    "segment_id": 5,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "ありがとうございます。",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 20600,
+   "type": "botOutput",
+   "data": {
+    "text": "最近取り組んだ中で、技術的に難しかった課題について教えていただけますか？",
+    "segment_id": 6,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "最近取り組んだ中で、技術的に難しかった課題について教えていただけますか？",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 20600,
+   "type": "botStoppedSpeaking"
+  },
+  {
+   "t": 20600,
+   "type": "botTtsStopped"
+  },
+  {
+   "t": 21200,
+   "type": "vadStart"
+  },
+  {
+   "t": 21350,
+   "type": "userTurnStart"
+  },
+  {
+   "t": 21900,
+   "type": "userTranscript",
+   "data": {
+    "text": "最近だと、",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 22600,
+   "type": "userTranscript",
+   "data": {
+    "text": "最近だと、決済システムのレイテンシ改善に",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 23300,
+   "type": "userTranscript",
+   "data": {
+    "text": "最近だと、決済システムのレイテンシ改善に取り組みました。",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 24000,
+   "type": "userTranscript",
+   "data": {
+    "text": "最近だと、決済システムのレイテンシ改善に取り組みました。ピーク時に",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 24700,
+   "type": "userTranscript",
+   "data": {
+    "text": "最近だと、決済システムのレイテンシ改善に取り組みました。ピーク時にタイムアウトが多発していて。",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 25000,
+   "type": "vadStop"
+  },
+  {
+   "t": 25380,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "SonioxSTTService#0",
+      "value": 0.21
+     }
+    ]
+   }
+  },
+  {
+   "t": 25540,
+   "type": "userTranscript",
+   "data": {
+    "text": "最近だと、決済システムのレイテンシ改善に取り組みました。ピーク時にタイムアウトが多発していて。",
+    "final": true,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 25900,
+   "type": "userTurnStop"
+  },
+  {
+   "t": 26050,
+   "type": "botLlmStarted"
+  },
+  {
+   "t": 26470,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "OpenAILLMService#0",
+      "value": 0.42
+     }
+    ]
+   }
+  },
+  {
+   "t": 26500,
+   "type": "botTtsStarted"
+  },
+  {
+   "t": 26510,
+   "type": "botOutput",
+   "data": {
+    "text": "なるほど。",
+    "segment_id": 7,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "なるほど。"
+    }
+   }
+  },
+  {
+   "t": 26540,
+   "type": "botOutput",
+   "data": {
+    "text": "その原因はどのように特定されたのでしょうか？",
+    "segment_id": 8,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "その原因はどのように特定されたのでしょうか？"
+    }
+   }
+  },
+  {
+   "t": 26570,
+   "type": "botOutput",
+   "data": {
+    "text": "具体的な調査手順を教えてください。",
+    "segment_id": 9,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "具体的な調査手順を教えてください。"
+    }
+   }
+  },
+  {
+   "t": 26670,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "CartesiaTTSService#0",
+      "value": 0.17
+     }
+    ]
+   }
+  },
+  {
+   "t": 26750,
+   "type": "botStartedSpeaking"
+  },
+  {
+   "t": 27150,
+   "type": "botLlmStopped"
+  },
+  {
+   "t": 28750,
+   "type": "botOutput",
+   "data": {
+    "text": "なるほど。",
+    "segment_id": 7,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "なるほど。",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 29200,
+   "type": "vadStart"
+  },
+  {
+   "t": 29350,
+   "type": "userTurnStart"
+  },
+  {
+   "t": 29360,
+   "type": "botInterrupted"
+  },
+  {
+   "t": 29410,
+   "type": "botStoppedSpeaking"
+  },
+  {
+   "t": 29410,
+   "type": "botTtsStopped"
+  },
+  {
+   "t": 29900,
+   "type": "userTranscript",
+   "data": {
+    "text": "あ、すみません、",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 30600,
+   "type": "userTranscript",
+   "data": {
+    "text": "あ、すみません、補足すると",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 31300,
+   "type": "userTranscript",
+   "data": {
+    "text": "あ、すみません、補足するとデータベースのロック待ちが原因でした。",
+    "final": false,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 31600,
+   "type": "vadStop"
+  },
+  {
+   "t": 31980,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "SonioxSTTService#0",
+      "value": 0.21
+     }
+    ]
+   }
+  },
+  {
+   "t": 32200,
+   "type": "userTranscript",
+   "data": {
+    "text": "あ、すみません、補足するとデータベースのロック待ちが原因でした。",
+    "final": true,
+    "source": "userInput"
+   }
+  },
+  {
+   "t": 32600,
+   "type": "userTurnStop"
+  },
+  {
+   "t": 32780,
+   "type": "botLlmStarted"
+  },
+  {
+   "t": 33200,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "OpenAILLMService#0",
+      "value": 0.42
+     }
+    ]
+   }
+  },
+  {
+   "t": 33230,
+   "type": "botTtsStarted"
+  },
+  {
+   "t": 33240,
+   "type": "botOutput",
+   "data": {
+    "text": "ご説明ありがとうございます。",
+    "segment_id": 10,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "ご説明ありがとうございます。"
+    }
+   }
+  },
+  {
+   "t": 33270,
+   "type": "botOutput",
+   "data": {
+    "text": "ロック待ちを解消するために、どのような対策を取られましたか？",
+    "segment_id": 11,
+    "will_be_spoken": true,
+    "spoken_status": "new",
+    "spoken_progress": {
+     "accumulated_text": "",
+     "remaining_text": "ロック待ちを解消するために、どのような対策を取られましたか？"
+    }
+   }
+  },
+  {
+   "t": 33400,
+   "type": "metrics",
+   "data": {
+    "ttfb": [
+     {
+      "processor": "CartesiaTTSService#0",
+      "value": 0.17
+     }
+    ]
+   }
+  },
+  {
+   "t": 33480,
+   "type": "botStartedSpeaking"
+  },
+  {
+   "t": 33880,
+   "type": "botLlmStopped"
+  },
+  {
+   "t": 36080,
+   "type": "botOutput",
+   "data": {
+    "text": "ご説明ありがとうございます。",
+    "segment_id": 10,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "ご説明ありがとうございます。",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 38680,
+   "type": "botOutput",
+   "data": {
+    "text": "ロック待ちを解消するために、どのような対策を取られましたか？",
+    "segment_id": 11,
+    "will_be_spoken": true,
+    "spoken_status": "completed",
+    "spoken_progress": {
+     "accumulated_text": "ロック待ちを解消するために、どのような対策を取られましたか？",
+     "remaining_text": ""
+    }
+   }
+  },
+  {
+   "t": 38680,
+   "type": "botStoppedSpeaking"
+  },
+  {
+   "t": 38680,
+   "type": "botTtsStopped"
+  },
+  {
+   "t": 39480,
+   "type": "disconnected"
+  }
+ ]
+}
